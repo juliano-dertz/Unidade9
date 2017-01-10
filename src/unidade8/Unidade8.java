@@ -27,6 +27,7 @@ public class Unidade8 {
     public static void main(String[] args) {
         AplicacaoMDI frameAplicacaoMDI = new AplicacaoMDI();
         frameAplicacaoMDI.setVisible(true);
+        System.out.println ("Versão inicial da Unidade 9!!!");
     }
     
     public static String selectJobId (String name) {
