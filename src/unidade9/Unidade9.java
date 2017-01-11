@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package unidade8;
+package unidade9;
 
 //1º PASSO - IMPORTAR OS PACOTES NECESSÁRIOS
 import java.sql.*;
@@ -19,7 +19,7 @@ import net.sf.jasperreports.view.JasperViewer;
  *
  * @author Juliano
  */
-public class Unidade8 {
+public class Unidade9 {
 
     /**
      * @param args the command line arguments

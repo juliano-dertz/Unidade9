@@ -8,12 +8,12 @@
     <property name="hibernate.connection.username">postgres</property>
     <property name="hibernate.connection.password">postgres</property>
     
-    <mapping class="unidade8.Unidade8"/>
-    <mapping class="unidade8.AplicacaoMDI"/>
-    <mapping class="unidade8.JFrameFuncionarioCadastro"/>
-    <mapping class="unidade8.JFrameFuncionarioPesquisa"/>
-    <mapping class="unidade8.JFrameEmprego"/>
-    <mapping class="unidade8.Emprego"/>
+    <mapping class="unidade9.Unidade9"/>
+    <mapping class="unidade9.AplicacaoMDI"/>
+    <mapping class="unidade9.JFrameFuncionarioCadastro"/>
+    <mapping class="unidade9.JFrameFuncionarioPesquisa"/>
+    <mapping class="unidade9.JFrameEmprego"/>
+    <mapping class="unidade9.Emprego"/>
     
   </session-factory>
 </hibernate-configuration>

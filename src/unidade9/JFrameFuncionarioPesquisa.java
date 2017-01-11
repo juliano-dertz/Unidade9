@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package unidade8;
+package unidade9;
 
 import java.sql.SQLException;
 import java.util.logging.Level;
@@ -81,7 +81,7 @@ public class JFrameFuncionarioPesquisa extends javax.swing.JFrame {
 	String sobrenome = jTextFieldSobrenome.getText();        
         
         try {
-            Unidade8.reportEmployee (nome, sobrenome);
+            Unidade9.reportEmployee (nome, sobrenome);
         } catch (ClassNotFoundException | SQLException ex) {
             Logger.getLogger(JFrameFuncionarioPesquisa.class.getName()).log(Level.SEVERE, null, ex);
         }

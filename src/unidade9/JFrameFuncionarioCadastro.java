@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package unidade8;
+package unidade9;
 
 import javax.swing.JOptionPane;
 
@@ -158,12 +158,12 @@ public class JFrameFuncionarioCadastro extends javax.swing.JFrame {
 	String email = jTextFieldEmail.getText();
 	String fone = jTextFieldFone.getText();
 	String dataContratacao = jTextFieldContratacao.getText();
-	String funcao = Unidade8.selectJobId((String)jComboBoxFuncao.getSelectedItem());
+	String funcao = Unidade9.selectJobId((String)jComboBoxFuncao.getSelectedItem());
         System.out.println (funcao);
         String salario = jTextFieldSalario.getText();
 	String comissao = jTextFieldComissao.getText();
 	String chefe = (String)jComboBoxChefe.getSelectedItem();
-	String departamento = Unidade8.selectDepartmentId ((String)jComboBoxDepartamento.getSelectedItem());
+	String departamento = Unidade9.selectDepartmentId ((String)jComboBoxDepartamento.getSelectedItem());
         String obrigatorios = "";
         boolean controle = false;
         
@@ -189,7 +189,7 @@ public class JFrameFuncionarioCadastro extends javax.swing.JFrame {
         
         //VERIFICAÇÃO DA CHAMADA DA INSERÇÃO OU NÃO
         if (controle == false) {
-            Unidade8.insertEmployee (nome, sobrenome, email, fone, dataContratacao, funcao, salario, comissao, chefe, departamento);
+            Unidade9.insertEmployee (nome, sobrenome, email, fone, dataContratacao, funcao, salario, comissao, chefe, departamento);
         } else {
             JOptionPane.showMessageDialog(this, "Campos obrigatórios:"+obrigatorios);
         }
